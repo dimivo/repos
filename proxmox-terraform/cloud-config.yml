@@ -1,0 +1,14 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+
+packages:
+  - qemu-guest-agent
+  - curl
+  - wget
+  - git
+
+runcmd:
+  - systemctl enable --now qemu-guest-agent
+
+final_message: "System boot is complete after $(uptime -s)"

@@ -1,0 +1,28 @@
+# ============================================================================
+# Terraform will PROMPT for these required values at runtime:
+#   pm_api_url, pm_user, pm_password, target_node, template_name
+# You can skip prompts by setting them via environment variables:
+#   $env:TF_VAR_pm_api_url = "https://..."
+#   $env:TF_VAR_pm_user = "root@pam"
+#   $env:TF_VAR_pm_password = "your-password"
+# ============================================================================
+
+# Optional overrides (have defaults, only set if different)
+pm_tls_insecure   = true
+vm_count          = 1
+vm_name_prefix    = "my-vm"
+vm_cores          = 2
+vm_sockets        = 1
+vm_memory         = 4096
+vm_disk_size      = "64G"
+vm_storage        = "local-lvm"
+vm_network_bridge = "vmbr0"
+vm_network_tag    = -1
+
+# --- Cloud-init ---
+vm_ipconfig_default = "ip=dhcp"
+vm_ci_user          = "ubuntu"
+# vm_ci_password    will be prompted if not set here
+vm_ssh_public_key   = "ssh-ed25519 AAAAC3... your-key-here"
+vm_searchdomain     = "local"
+vm_nameserver       = "8.8.8.8 1.1.1.1"

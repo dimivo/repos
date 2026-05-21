@@ -1,0 +1,9 @@
+{
+    "nodes":  null,
+    "version":  null,
+    "resources":  null,
+    "auth":  {
+                 "csrf":  "6A0EA9C5:qDMkZR2Ef/Oi3L3BprSTVsZ6ZOsaGn68DzwbMFQDuYc",
+                 "ticket":  "PVE:root@pam:6A0EA9C5::yGqYi8+LRI1D6gY1IKbQJ4+XSsUJ609spJhq4UIlb/sYMCpUnyRYuG3304Gy+4Z32v7xUUuZ4amAGyXGTm1OQF3jEJOHwaG29Q50xLrj5W1C9ldWhRIOr6O0H3noWAAQ6f90s1NvFqYhcg8qU2Vq6iRBABI7cIYwJ9YU8frOa/rv0SEIArIUCxZJdB8L27kOfrlI5GymAo2W8DNsHiDfMxVWUu5ti0cISeu5SHMj5yOym+dc4OdRQaB5wJvWVgbH8dkkiCXOaSLy9xBg8upZLwgM5wYqpQsToO6kSny5qragJ4yFwgq4Qxu7G1EBWncLAqD7XnBuklL2Sp9IWo1FUw=="
+             }
+}
